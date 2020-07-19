@@ -1,4 +1,7 @@
 import os
+from shutil import copyfile
+
+#copyfile(source, destination)
 
 # # cible test /Users/admin/Desktop/test
 
@@ -23,4 +26,8 @@ if reponse == "a" and not os.path.exists(creation):## Si le dossier n'existe pas
 
 else:
     print(f"Attention {creation} existe déjà")
+
+sauvegarde_fichier = input("Quel fichier sauvegarder: ")
+
+
 
